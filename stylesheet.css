@@ -1,0 +1,63 @@
+body{background-color: #5d2510;}
+            
+            .cafe{text-align: center;
+                 color: #ede1d2;
+                 font-size: 100px;
+                 padding-top: 100px;
+                 text-shadow: 5px 5px 7px #412f26;}
+            .TitlePage{padding-left: 200px;
+                       padding-right: 200px;
+                       padding-bottom: 50px;
+                       display: flex;
+                       flex-direction: column;}
+
+            .about{background-color: #ede1d2;
+                   margin: 100px;
+                   border-radius: 20px;
+                   }
+            .coffeeabout{margin: 50px;
+                         border-radius: 20px;}
+            .thetext{display:inline-flex;
+                     padding: 50px;
+                     border-radius: 10px;
+                     box-shadow: 0px 0px 20px #412f26;
+                     }  
+            .textparagraph{font-size: 20px;
+                           color: #412f26;
+                           } 
+            .textTitle{font-size: 50px;color:#5d2510;
+                      } 
+            .thetext_two{padding-left: 50px;}
+            .menucoffee{margin: 100px;
+                        border-radius: 500px;
+                        border: 10px solid #ede1d2;
+                        margin-left: 900px;}
+            .coffeprice,menutitle{word-spacing:100px;
+                         font-size: 20px;
+                          color: #ede1d2;}
+            .menubartop{color: #ede1d2;
+                        padding:auto;
+                        font-size: 20px;
+                        margin-left: 1200px;
+                        word-spacing: 10px;}
+            .menubartop.h5-one,
+            .menubartop.h5-two,
+            .menubartop.h5-three{display:flex;
+                                flex-direction: row;
+                                 word-spacing: 10px;}
+            .container{display: flex;
+                      flex-wrap: wrap;}
+                                  
+            .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            }
+            
+            @media only screen and (max-width: 600px) {
+            .container {grid-template-columns: 1fr;}
+            
+            }
+            .container {
+                max-width: 900px;
+                margin: auto;
+              }
